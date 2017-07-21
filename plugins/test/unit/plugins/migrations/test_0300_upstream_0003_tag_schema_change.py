@@ -9,7 +9,7 @@ from mock import Mock, patch
 from pulp.server.db.migrate.models import _import_all_the_way
 
 
-PATH_TO_MODULE = 'pulp_docker.plugins.migrations.0003_tag_schema_change'
+PATH_TO_MODULE = 'pulp_docker.plugins.migrations.0300_upstream_0003_tag_schema_change'
 
 migration = _import_all_the_way(PATH_TO_MODULE)
 
