@@ -1,5 +1,6 @@
 """
-This module contains tests for pulp_docker.plugins.migrations.0004_tag_schema_change.py
+This module contains tests for
+pulp_docker.plugins.migrations.0400_upstream_0004_tag_schema_change.py
 """
 from unittest import TestCase
 
@@ -8,7 +9,7 @@ from mock import Mock, patch, call
 from pulp.server.db.migrate.models import _import_all_the_way
 
 
-PATH_TO_MODULE = 'pulp_docker.plugins.migrations.0004_tag_schema_change'
+PATH_TO_MODULE = 'pulp_docker.plugins.migrations.0400_upstream_0004_tag_schema_change'
 
 migration = _import_all_the_way(PATH_TO_MODULE)
 

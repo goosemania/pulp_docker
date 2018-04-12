@@ -5,14 +5,14 @@ import mock
 from pulp.server.db.migrate.models import _import_all_the_way
 
 
-PATH_TO_MODULE = 'pulp_docker.plugins.migrations.0005_remove_manifest_unused_fields'
+PATH_TO_MODULE = 'pulp_docker.plugins.migrations.0401_upstream_0005_remove_manifest_unused_fields'
 
 migration = _import_all_the_way(PATH_TO_MODULE)
 
 
 class TestMigrate(unittest.TestCase):
     """
-    Test migration 0005.
+    Test migration 0401_upstream_0005.
     """
 
     @mock.patch('.'.join((PATH_TO_MODULE, 'get_collection')))
